@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node app.js",
     "deploy": "gulp deploy",
-    "test": "ava test/**/*.js --verbose"
+    "test": "ava test/**/*.js --verbose",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "ajv": "^6.0.0",
@@ -42,7 +44,8 @@
     "sitemap": "^1.6.0",
     "strip-bom": "^3.0.0",
     "stripe": "^5.4.0",
-    "uglifycss": "0.0.27"
+    "uglifycss": "0.0.27",
+    "snyk": "^1.161.1"
   },
   "devDependencies": {
     "ava": "^0.25.0",
@@ -82,5 +85,6 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrvautin/expressCart/issues"
-  }
+  },
+  "snyk": true
 }
