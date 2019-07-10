@@ -25,7 +25,7 @@
     "glob": "^7.1.2",
     "helmet": "^3.6.1",
     "html-entities": "^1.2.0",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.12",
     "lunr": "^2.1.5",
     "mime-db": "^1.33.0",
     "mime-type": "^3.0.5",
