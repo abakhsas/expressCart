@@ -9,7 +9,7 @@
     "test": "ava test/**/*.js --verbose"
   },
   "dependencies": {
-    "ajv": "^6.0.0",
+    "ajv": "^6.12.3",
     "async": "^2.6.0",
     "axios": "^0.17.1",
     "bcrypt-nodejs": "0.0.3",
